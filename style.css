@@ -1,0 +1,150 @@
+*{padding: 0;margin: 0 auto;}
+body
+{
+	background-image: url(bg.jpg);
+	background-attachment: fixed;object-position: center;
+	background-size: cover;font-family: sans-serif;
+	
+}
+#p{text-transform: capitalize;font-size: 16px;margin: 30px;padding: 10px;}
+#p select{margin-right: 30px;}
+#p select option{width: 100px;}
+#container
+{
+	width: 50%;
+	min-height: 100vh;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+#log form #p input[type=submit]
+{
+    width: 150px;
+    background-color: #444;
+}
+#log form #p input[type=submit]:hover
+{
+        background-color: #333;
+}
+#log
+{
+	background: rgba(255,255,255,.95);
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+	box-shadow: 0px 0px 30px #222;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	object-position: center;
+}
+#log h1
+{
+	color:   dimgray;
+	padding: 20px;justify-content: center;
+	font-size: 35px;text-align: center;
+
+    width: 80%;
+    margin-bottom: 20px;
+}
+#log #pro img
+{
+	width:300px; 
+	height: 300px;
+	border-radius: 150px;margin: 20px;
+
+}
+form h2
+{
+	color:  #0066ff;
+	padding: 20px;justify-content: center;
+	font-size: 25px;text-align: center;
+
+}
+nav{width: 100%;    background:#1a53ff;}
+#log nav a
+{
+    padding: 20px;
+    float: left;
+    text-transform: capitalize;
+    color: #fff; border-bottom: 5px solid #1a53ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+#log nav a:hover
+{
+     border-bottom: 5px solid #fff;
+}
+#log nav a#iop{background: #fff;color:#1a53ff; border-bottom: 5px solid #1a53ff;}
+#pro
+{
+	padding: 10px;
+}
+#log form
+{
+	padding:10px;
+}
+#log form input
+{
+	margin: 10px;
+	padding: 15px;
+}
+input::placeholder{
+    font-size: 14px;
+}
+#log form select
+{
+    width: 300px;padding: 12px;
+    font-size: 14px;
+	border: 1px solid #ddd;font-size: 14px;
+	border-radius: 50px;
+}
+#log form input[type="number"],#log form input[type="text"],#log form input[type="email"], #log form input[type="password"]
+{
+	width: 300px;
+	border: 1px solid #ddd;font-size: 14px;
+	border-radius: 50px;
+}
+#log form input[type="submit"],#log form input[type="reset"]
+{
+	width: 300px;
+	border: 0 solid #fff;
+	background-color:#3366ff;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: sans-serif;
+	border-radius: 50px;
+}
+#log form input[type="reset"]:hover,#log form input[type="submit"]:hover
+{
+	background-color:#1a53ff;
+	color: aliceblue;
+}
+#log a
+{
+	text-decoration: none;
+	color: darkgreen;
+	align-content: center;
+	float: right;
+	padding: 20px;
+	text-align-last: right;
+}
+form p
+{
+    width:500px;
+    font-size: 20px;
+}
+table
+{
+    width: 1000px;
+}
+th
+{
+    border: 0px solid #555;color: #fff;
+    padding: 10px;background-color: royalblue;
+}
+td
+{
+    border: 0px solid #ddd;color: #000;
+    padding: 10px;background-color: #ddd;
+}
